@@ -1,7 +1,7 @@
 import React from "react";
 import { Button } from "../button";
 
-import "./Logo.styles.css";
+import "./logo.styles.css";
 
 type LogoProps = {
   onBackground?: boolean;
