@@ -15,7 +15,7 @@ export const Header: React.FC<HeaderProps> = ({ links }) => {
     <div className={`headerWrapper`}>
       <header className="header">
         <div className="header__left">
-          {top ? <Logo className="brand" /> : <Logo icon className="brand" />}
+          <Logo className="brand" />
         </div>
         <div className="header__right">
           <Nav links={links} />
