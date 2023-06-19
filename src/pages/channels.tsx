@@ -3,14 +3,13 @@ import { Container } from "../components/container";
 import { Layout } from "../components/layout";
 
 interface PageProps {
-  location: Location;
 }
 
-const Channels: React.FC<PageProps> = ({ location }) => {
+const Channels: React.FC<PageProps> = () => {
   const siteTitle = 'Supported Channels | ClipShare';
 
   return (
-    <Layout location={location} title={siteTitle}>
+    <Layout title={siteTitle}>
       <Container>
         <article className="prose prose-lg mt-8">
           <h1>Supported Channels</h1>

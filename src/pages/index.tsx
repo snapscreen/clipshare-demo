@@ -4,14 +4,13 @@ import { Container } from "../components/container";
 import { Layout } from "../components/layout";
 
 interface PageProps {
-  location: Location;
 }
 
-const Home: React.FC<PageProps> = ({ location }) => {
+const Home: React.FC<PageProps> = () => {
   const siteTitle = `Welcome`;
 
   return (
-    <Layout location={location} title={siteTitle}>
+    <Layout title={siteTitle}>
       <Container>
         <article className="prose prose-lg mt-8">
           <h1>Clip Share Demo</h1>

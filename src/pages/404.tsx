@@ -6,7 +6,7 @@ import { Layout } from "../components/layout";
 const NotFoundPage: React.FC = () => {
   const siteTitle = 'Not found';
   return (
-    <Layout location={location} title={siteTitle}>
+    <Layout title={siteTitle}>
         <Container>
           <article className="prose prose-lg mt-8">
             <h1>Sorry</h1>
