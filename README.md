@@ -1,49 +1,41 @@
-<p align="center">
-  <a href="https://www.gatsbyjs.com/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter">
-    <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
-  </a>
-</p>
-<h1 align="center">
-  Gatsby Minimal Starter
-</h1>
+# ClipShare website
 
-## 🚀 Quick start
+Reach ClipShare demo via https://demo.clipshare.tv
+The website is hosted on netlify and built with GatsbyJS.
 
-1.  **Create a Gatsby site.**
+[![Netlify Status](https://api.netlify.com/api/v1/badges/8ebfd963-0f62-4406-ada4-cf2fe1870f03/deploy-status)](https://app.netlify.com/sites/snapscreen-clipshare/deploys)
 
-    Use the Gatsby CLI to create a new site, specifying the minimal starter.
+## Development Stack
 
-    ```shell
-    # create a new Gatsby site using the minimal starter
-    npm init gatsby
-    ```
+| What?           | Details / Where?                                                      |
+| --------------- | --------------------------------------------------------------------- |
+| Framework       | [GatsbyJS](https://www.gatsbyjs.com/)                                 |
+| Deployment      | https://snapscreen-clipshare.netlify.app/ fully automated GitOps Flow |
+| Package-Manager | `yarn`                                                                |
+| Language        | `Typescript`                                                          |
 
-2.  **Start developing.**
+## Getting Started
 
-    Navigate into your new site’s directory and start it up.
+First, run the development server:
 
-    ```shell
-    cd my-gatsby-site/
-    npm run develop
-    ```
+```bash
+# installing all dev dependencies
+yarn install
+# Start development Server
+yarn dev
+# starts a Gatsby.js production server
+yarn start
+# Production Build
+yarn build
+# Format all Files with prettier
+yarn format
 
-3.  **Open the code and start customizing!**
+```
 
-    Your site is now running at http://localhost:8000!
+Open [http://localhost:8000](http://localhost:8000) with your browser to see the result.
+View GraphQL, an in-browser IDE, to explore site's data and schema [http://localhost:8000/\_\_\_graphql](http://localhost:8000/___graphql)
 
-    Edit `src/pages/index.js` to see your site update in real-time!
+## Licence
 
-4.  **Learn more**
-
-    - [Documentation](https://www.gatsbyjs.com/docs/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-    - [Tutorials](https://www.gatsbyjs.com/docs/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-    - [Guides](https://www.gatsbyjs.com/docs/how-to/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-    - [API Reference](https://www.gatsbyjs.com/docs/api-reference/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-    - [Plugin Library](https://www.gatsbyjs.com/plugins?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-    - [Cheat Sheet](https://www.gatsbyjs.com/docs/cheat-sheet/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-## 🚀 Quick start (Netlify)
-
-Deploy this starter with one click on [Netlify](https://app.netlify.com/signup):
-
-[<img src="https://www.netlify.com/img/deploy/button.svg" alt="Deploy to Netlify" />](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-minimal)
+ClipShare is a trademark owned by Snapscreen, Inc.
+ClipShare demo is licensed under the terms of the [Apache License 2.0](LICENSE).
