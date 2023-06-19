@@ -17,7 +17,7 @@ const navigation = [
 
 const baseMenu = [
     {
-      name: "Try Clipshare",
+      name: "Try ClipShare",
       to: "/",
     },
     {

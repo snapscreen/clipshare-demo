@@ -62,7 +62,7 @@ export const Logo: React.FC<LogoProps> = ({
           </svg>
         )}
       </span>
-      <span className="sr-only">SnapOdds</span>
+      <span className="sr-only">ClipShare</span>
     </Button>
     </>
   );
