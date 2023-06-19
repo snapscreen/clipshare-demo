@@ -3,7 +3,7 @@
 Reach ClipShare demo via https://demo.clipshare.tv
 The website is hosted on netlify and built with GatsbyJS.
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/8ebfd963-0f62-4406-ada4-cf2fe1870f03/deploy-status)](https://app.netlify.com/sites/snapscreen-clipshare/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/7c0e857a-d309-4f4c-9aa6-6fc10fb16594/deploy-status)](https://app.netlify.com/sites/clipshare-demo/deploys)
 
 ## Development Stack
 
