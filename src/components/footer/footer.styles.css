@@ -1,0 +1,6 @@
+.footer {
+  @apply max-w-screen-xl;
+  @apply mx-auto;
+  @apply text-center;
+  @apply my-8;
+}

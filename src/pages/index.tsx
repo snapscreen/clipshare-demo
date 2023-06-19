@@ -11,7 +11,6 @@ const Home: React.FC<PageProps> = () => {
 
   return (
     <Layout title={siteTitle}>
-      <Container>
         <article className="prose prose-lg mt-8">
           <h1>Clip Share Demo</h1>
           <p className="lead">Create broadcast quality TV clips in a Snap for sharing. Snap your TV, edit the clip and share.</p>
@@ -19,7 +18,6 @@ const Home: React.FC<PageProps> = () => {
             Start
           </Button>
         </article>
-      </Container>
     </Layout>
   );
 };

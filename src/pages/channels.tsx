@@ -10,12 +10,10 @@ const Channels: React.FC<PageProps> = () => {
 
   return (
     <Layout title={siteTitle}>
-      <Container>
         <article className="prose prose-lg mt-8">
           <h1>Supported Channels</h1>
           <p className="lead">For this demo the following channels will work.</p>
         </article>
-      </Container>
     </Layout>
   );
 };

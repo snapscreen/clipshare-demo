@@ -1,5 +1,7 @@
 import React, { ReactNode } from "react";
+import { Container } from "../container";
 import { Header } from "../header";
+import { Footer } from "../footer";
 import { TabBar } from "../tab-bar";
 
 interface LayoutProps {
@@ -30,7 +32,10 @@ export const Layout: React.FC<LayoutProps> = ({ children }) => {
   return (
     <>
       <Header links={navigation} />
-      <main>{children}</main>
+      <Container>
+        <main>{children}</main>
+        <Footer />
+      </Container>
       <TabBar links={baseMenu} />
     </>
   );

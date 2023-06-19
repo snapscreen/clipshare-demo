@@ -7,7 +7,6 @@ const NotFoundPage: React.FC = () => {
   const siteTitle = 'Not found';
   return (
     <Layout title={siteTitle}>
-        <Container>
           <article className="prose prose-lg mt-8">
             <h1>Sorry</h1>
             <p className="lead">The content you are looking for is not here.</p>
@@ -15,7 +14,6 @@ const NotFoundPage: React.FC = () => {
               Start over
             </Button>
           </article>
-        </Container>
     </Layout>
   );
 };
