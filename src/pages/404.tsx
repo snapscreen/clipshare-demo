@@ -8,10 +8,11 @@ const NotFoundPage: React.FC = () => {
   return (
     <Layout location={location} title={siteTitle}>
         <Container>
-          <article className="prose lg:prose-xl mt-16">
-            <h1>Sorry.</h1>
+          <article className="prose prose-lg mt-8">
+            <h1>Sorry</h1>
+            <p className="lead">The content you are looking for is not here.</p>
             <Button as="link" styleType="primary" to="/">
-              Meet ClipShare
+              Start over
             </Button>
           </article>
         </Container>

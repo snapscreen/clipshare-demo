@@ -2,7 +2,6 @@
   @apply sticky top-0 z-20;
   @apply bg-skin-header;
   @apply border-b border-skin-base-muted;
-  @apply transition-all duration-300 ease-in-out;
 }
 
 .header {
@@ -30,7 +29,7 @@
   @apply justify-end;
 }
 .header__right > * {
-  @apply ml-2;
+  @apply mx-3;
 }
 
 .brand {

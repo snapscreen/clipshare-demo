@@ -6,20 +6,11 @@ import { ThemeSwitch } from "../theme-switch";
 import "./header.styles.css";
 
 type HeaderProps = {
+  links: any
 };
 
-const navigation = {
-  rightNav: [
-    {
-      name: "Find out more",
-      to: "https://clipshare.tv/",
-      exteralLink: true,
-    },
-  ],
-};
+export const Header: React.FC<HeaderProps> = ({ links }) => {
 
-export const Header: React.FC<HeaderProps> = () => {
-  const { rightNav } = navigation;
   const [top, setTop] = useState(true);
 
   // detect whether user has scrolled the page down by 10px
@@ -38,7 +29,7 @@ export const Header: React.FC<HeaderProps> = () => {
           {top ? <Logo className="brand" /> : <Logo icon className="brand" />}
         </div>
         <div className="header__right">
-          <Nav links={rightNav} />
+          <Nav links={links} />
           <ThemeSwitch />
         </div>
       </header>
