@@ -9,10 +9,8 @@
   ],
   "scripts": {
     "develop": "gatsby develop",
-    "start": "gatsby develop",
-    "build": "gatsby build",
-    "serve": "gatsby serve",
-    "clean": "gatsby clean"
+    "start-api": "node functions/api.mjs",
+    "start": "concurrently \"npm run develop\" \"npm run start-api\""
   },
   "dependencies": {
     "@headlessui/react": "^1.7.15",

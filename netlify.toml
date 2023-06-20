@@ -5,4 +5,4 @@
   force = true
   from = "/api/*"
   status = 200
-  to = "/.netlify/functions/api/:splat"
+  to = "http://localhost:3000/:splat"
