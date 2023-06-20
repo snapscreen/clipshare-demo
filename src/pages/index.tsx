@@ -12,10 +12,10 @@ const Home: React.FC<PageProps> = () => {
   return (
     <Layout title={siteTitle}>
         <article className="prose prose-lg mt-8">
-          <h1>Clip Share Demo</h1>
-          <p className="lead">Create broadcast quality TV clips in a Snap for sharing. Snap your TV, edit the clip and share.</p>
-          <Button as="link" styleType="primary" to="/">
-            Start
+          <h1>ClipShare</h1>
+          <p className="lead">Share your broadcast quality TV clip created with ClipShare.</p>
+          <Button as="link" styleType="primary" to="/" className="w-full">
+            Share
           </Button>
         </article>
     </Layout>
