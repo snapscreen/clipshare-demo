@@ -1,4 +1,4 @@
-# ClipShare website
+# ClipShare Netball demo
 
 Reach ClipShare Netball demo via https://netball.clipshare.tv
 The website is hosted on netlify and built with GatsbyJS.
