@@ -17,10 +17,12 @@ export const Header: React.FC<HeaderProps> = ({ links }) => {
         <div className="header__left">
           <Logo className="brand" />
         </div>
+        {/*
         <div className="header__right">
           <Nav links={links} />
           <ThemeSwitch />
         </div>
+        */}
       </header>
     </div>
   );
