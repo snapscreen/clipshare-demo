@@ -27,6 +27,13 @@
     --color-text-focus: #000000;
   }
 
+  snapodds-sdk {
+    --snapodds__color--primary: var(--color-primary);
+    --snapodds__color-background: var(--color-background);
+    --snapodds__color-background--shade: var(--color-background-muted);
+    --snapodds__color-text: var(--color-text);
+  }
+
   .dark {
     --color-primary-contrast: var(--color-primary);
     --color-background: #09131d;
