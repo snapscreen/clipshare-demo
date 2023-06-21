@@ -157,3 +157,12 @@ div#hs-eu-cookie-confirmation div#hs-eu-cookie-confirmation-inner a#hs-eu-declin
   border: 0 !important;
   color: inherit !important;
 }
+
+snapodds-sdk {
+  z-index: 2;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+}
