@@ -33,7 +33,7 @@ const Home: React.FC<PageProps> = () => {
           <h1>ClipShare</h1>
           <p className="lead">Share your broadcast quality TV clip created with ClipShare.</p>
           <Button styleType="primary" onClick={startClipShare} className="w-full">
-            Share
+            Snap TV
           </Button>
         </article>
     </Layout>
