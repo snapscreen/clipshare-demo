@@ -20,7 +20,7 @@
 
 .btn.primary {
   @apply bg-skin-primary;
-  @apply text-skin-fg-focus;
+  @apply text-white;
   @apply border-skin-primary;
   @apply py-3 px-6;
   @apply text-xl;
