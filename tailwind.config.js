@@ -32,7 +32,7 @@ module.exports = {
     "./content/**/*.tsx",
     "./content/**/*.mdx",
   ],
-  darkMode: "class",
+  darkMode: "media",
   theme: {
     extend: {
       typography: (theme) => ({

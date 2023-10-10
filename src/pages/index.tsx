@@ -7,7 +7,7 @@ interface PageProps {
 }
 
 const Home: React.FC<PageProps> = () => {
-  const siteTitle = `Welcome`;
+  const siteTitle = `Netball ClipShare`;
 
     function fetchAccessTokenFromApi() {
         return fetch('/api/token', { mode: 'cors', cache: 'no-cache' }).then((response) => response.json());
@@ -19,8 +19,8 @@ const Home: React.FC<PageProps> = () => {
             .setSnapTarget('sport')
             .setAction('share')
             .setVibrate(true)
-            .setApiUrl(`https://api-dev.us.snapscreen.com`)
-            .setClipShareApiUrl(`https://clip-dev.us.snapscreen.com/api`)
+            .setApiUrl(`https://api.aus.snapscreen.com`)
+            .setClipShareApiUrl(`https://clip.aus.snapscreen.com/api`)
             .setAccessTokenProvider(fetchAccessTokenFromApi)
             .onClipCreated((clip) => console.log('Clip shared', clip))
             .onClose(() => console.log('SDK:onClose'))
