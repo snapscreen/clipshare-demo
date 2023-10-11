@@ -22,6 +22,22 @@ module.exports = {
         icon: `src/images/ClipShare_Icon.svg`, // This path is relative to the root of the site.
       }
     },
+    {
+    resolve: `gatsby-plugin-google-gtag`,
+      options: {
+        trackingIds: [
+        "G-TCY73Q5DR7",
+        ],
+        gtagConfig: {
+          anonymize_ip: true,
+          cookie_expires: 0,
+        },
+        pluginConfig: {
+          head: false,
+          exclude: ["/preview/**"],
+        },
+      },
+    },
     "gatsby-plugin-sharp",
     "gatsby-transformer-sharp",
     {
