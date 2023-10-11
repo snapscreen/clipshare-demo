@@ -3,8 +3,8 @@ const React = require("react");
 exports.onRenderBody = ({ setHeadComponents }) => {
   setHeadComponents([
     <link key="clipShareSdkCss" href="https://cdn.snapodds.com/sdk/v1/clipshare-sdk.css" type="text/css" rel="stylesheet"/>,
-    <script key="clipShareSdkJs" src="https://cdn.snapodds.com/sdk/v1/clipshare-sdk.js" type="text/javascript"></script>,
-    <script key="clipShareSdkPlayer" type="text/javascript" src="https://cdn.jwplayer.com/libraries/ptBc3HHU.js"></script>,
+    <script rel="prefetch" key="clipShareSdkJs" src="https://cdn.snapodds.com/sdk/v1/clipshare-sdk.js" type="text/javascript"></script>,
+    <script rel="prefetch" key="clipShareSdkPlayer" type="text/javascript" src="https://cdn.jwplayer.com/libraries/ptBc3HHU.js"></script>,
     <script
       defer
       key="darkmode"
