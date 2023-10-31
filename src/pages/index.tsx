@@ -32,7 +32,7 @@ const Home: React.FC<PageProps> = () => {
       <article className="prose prose-lg my-8 text-center mx-auto">
         <h1 className="sr-only"></h1>
         <p className="lead">Share your broadcast quality TV clip created with ClipShare.</p>
-        <p className="maintenance">You could say an issue with our service provider means NetClips can’t be available tonight.  We look forward to helping you share magic moments again soon.</p>
+        <p className="maintenance">An issue with our service provider means NetClips can’t be available tonight. We look forward to helping you share magic moments again soon.</p>
       </article>
     </Layout>
   );
